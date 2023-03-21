@@ -2,6 +2,7 @@ version: '3'
 services:
   db:
     image: postgres
+    container_name: postgres-db-ads-fs2034-g15
     environment:
       POSTGRES_USER: ADSFS2023Gruppe15
       POSTGRES_PASSWORD: ADS_FS_2023_G15!?
